@@ -13,17 +13,17 @@
     </padding>
 
     <Label text="Digite seu peso: "
-           style="-fx-font-size: 24px; -fx-text-fill: #ff0000; -fx-font-weight: bold; -fx-color: #ffff"/>
+           style="-fx-font-size: 24px; -fx-text-fill: #000000; -fx-font-weight: bold; -fx-color: #ffff;"/>
     <TextField fx:id="campoPeso"
-               style="-fx-font-size: 24px; -fx-text-fill: #ff0000; -fx-font-weight: bold; -fx-color: #ffff"/>
+               style="-fx-font-size: 24px; -fx-text-fill: #696969; -fx-font-weight: bold; -fx-color: #ffff; -fx-max-width: 260px"/>
     <Label text="Digite sua altura: "
-           style="-fx-font-size: 24px; -fx-text-fill: #ff0000; -fx-font-weight: bold; -fx-color: #ffff"/>
+           style="-fx-font-size: 24px; -fx-text-fill: #000000; -fx-font-weight: bold; -fx-color: #ffff"/>
     <TextField fx:id="campoAltura"
-               style="-fx-font-size: 24px; -fx-text-fill: #ff0000; -fx-font-weight: bold; -fx-color: #ffff"/>
+               style="-fx-font-size: 24px; -fx-text-fill: #696969; -fx-font-weight: bold; -fx-color: #ffff; -fx-max-width: 260px"/>
     <Button text="Calcular" onAction="#onHelloButtonClick"
-            style="-fx-font-size: 24px; -fx-text-fill: #ff0000; -fx-font-weight: bold; -fx-color: #ffff"/>
+            style="-fx-font-size: 24px; -fx-text-fill: #696969; -fx-font-weight: bold; -fx-color: #ffff"/>
     <Label fx:id="labelCalculo"
-           style="-fx-font-size: 24px; -fx-text-fill: #ff0000; -fx-font-weight: bold; -fx-color: #ffff"/>
+           style="-fx-font-size: 24px; -fx-text-fill: #000000; -fx-font-weight: bold; -fx-color: #ffff"/>
     <Label fx:id="labelClassificacao"
-           style="-fx-font-size: 24px; -fx-text-fill: #ff0000; -fx-font-weight: bold; -fx-color: #ffff"/>
+           style="-fx-font-size: 24px; -fx-text-fill: #000000; -fx-font-weight: bold; -fx-color: #ffff"/>
 </VBox>

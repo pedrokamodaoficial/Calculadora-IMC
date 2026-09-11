@@ -5,6 +5,8 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
 import java.lang.reflect.InvocationTargetException;
+import java.math.BigDecimal;
+import java.text.DecimalFormat;
 import java.util.InputMismatchException;
 
 public class HelloController {
@@ -26,7 +28,8 @@ public class HelloController {
 
        try {
            double calculo = calculadora.calculo(Double.parseDouble(peso), Double.parseDouble(altura));
-           labelCalculo.setText("Seu IMC é: " + calculo);
+           DecimalFormat df = new DecimalFormat("0.00");
+           labelCalculo.setText("Seu IMC é: " + df.format(calculo));
            boolean passou = true;
 
            if (Double.parseDouble(altura) > 2){
